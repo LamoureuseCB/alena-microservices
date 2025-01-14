@@ -13,6 +13,6 @@ create table if not exists orders
     name  varchar(122)               not null,
     address      varchar(122)  not null,
     payment_id int references payments (id)   not null
-    );
+);
 
 

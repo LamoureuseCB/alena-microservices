@@ -13,6 +13,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>alena-microservices</name>
     <description>alena-microservices</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>payment-service</module>
+        <module>order-service</module>
+    </modules>
     <url/>
     <licenses>
         <license/>
